@@ -6,9 +6,6 @@ A comprehensive task management system with user authentication and CRUD operati
 - [Features](#features)
 - [Tech Stack](#tech-stack)
 - [Installation](#installation)
-- [Environment Variables](#environment-variables)
-- [API Endpoints](#api-endpoints)
-- [Usage](#usage)
 
 ## Features
 - **User Registration:** Allows new users to sign up with their email and password.
@@ -29,14 +26,14 @@ A comprehensive task management system with user authentication and CRUD operati
 ## Installation
 
 1. Clone the repository:
-   ```bash
+
    git clone https://github.com/Ramcodere/Task-Management-System
    cd task-management-system
 
 ## Installation
 
 ### 1. Install Dependencies
-```bash
+
 npm install
 
 API Endpoints
@@ -51,25 +48,14 @@ GET /api/tasks/:id - Retrieve details of a specific task.
 PUT /api/tasks/:id - Update an existing task.
 DELETE /api/tasks/:id - Delete a task
 
-
-Here's the content formatted in a more organized markdown pattern:
-
-markdown
-Copy code
 ## Installation
 
 ### 1. Install Dependencies
-```bash
 npm install
 2. Start the Server
-bash
-Copy code
 npm run dev
 Environment Variables
 Create a .env file in the root directory and add the following environment variables:
-
-bash
-Copy code
 PORT=3000
 DATABASE_URL=your-database-url
 JWT_SECRET=your-jwt-secret-key
